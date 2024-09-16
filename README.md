@@ -8,16 +8,16 @@ chmod +x NEEMO-1.0.0.AppImage
 # OR 
 You can download the AppImage using your web browser or via the terminal with wget:
 ```
-wget https://github.com/sazalo101/NEEMO-APPS/releases/download/neemo/NEEMO-1.0.0.AppImage
+wget https://github.com/sazalo101/NEEMO-APPS/releases/download/neemo/neemo_1.0.0_amd64.deb
 ```
 # Make it Executable:
-Make the AppImage executable:
+Make the .deb executable:
 ```bash
-chmod +x NEEMO-1.0.0.AppImage
+sudo dpkg -i neemo_1.0.0_amd64.deb
 ```
-# Run the AppImage:
+# Run NEEMO:
 
-Execute the AppImage:
+Execute :
 ```bash
-./NEEMO-1.0.0.AppImage
+neemo
 ```
